@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+}
+.naranja{
+    background-color: rgb(254,193,6);
+    display: inline-block;
+    border-radius: 5px;
+}o
+.celeste{
+    background-color: rgb(23,162,183);
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+}
+.gris{
+    background-color: rgb(108, 117, 124);
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+}
+.rojo{
+    background-color: rgb(219, 54, 68);
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+}
+.textoBlanco{
+    color: white;
+}
+.textoBlancoSize{
+    color: white;
+    font-size: 1.2rem;
+}
+.loremChico{
+    font-size: 0.8rem;
+}
+.derecha{
+    text-align: right;
+    width: 50vp;
+}
+.navVerde{
+    size: 1.5rem;
+    color: rgb(41,156,65);
+}
+.navBlanco{
+    size: 1.5rem;
+    color: rgb(255,246,237);
+}
+.botonVerde{
+    background-color: rgb(39,168,68);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.botonTransparente{
+    border: white solid 1px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.navGris{
+    size: 1.5rem;
+    color: rgb(143,127,102);
+}
+.linkNav{
+    text-decoration: none;
+}
+.listaItem{
+    list-style: none;
+    padding-left: 20px;
+    font-size: 1.1rem;
+    /*display: inline;*/
+}
+.enviarVerde{
+    background-color: green;
+ /*   padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+    padding-left: 60px; */
+    height: 30px;
+    width: 90px;
+}
+.navegacionFlex{
+    background-color: rgb(53,58,64);
+    /*height: 10vh;*/
+
+    font-size: 1.5rem;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.navegacion{
+    display: flex;
+    align-items: center;
+}
+.listaNav{
+    display: flex;
+}
+
+.botones{
+    width: 100%;
+}
+
+.listaBotones{
+    list-style-type: none;    
+}
+
+.itembotones{
+  float: right;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+    
+}
+
+.contenedorLogo{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+}
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    /*justify-content: center;*/
+    /*flex-direction: row-reverse;*/
+    /*justify-content: flex-end; */
+    /*align-items: center;*/
+    /* height: 600px;*/
+    justify-content: space-evenly;
+    height: 80vh;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    background-image: linear-gradient(to right, #0000004f, #0000004f, #0000004f, #0000004f, #0000004f), url(../assets/img/ba1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+/*    font-family: Montserrat, sans-serif;
+    font-weight: 400; */
+  /*  background-attachment: fixed; */
+}
+.hijoDescripcion{
+    height: 200px;
+    width: 700px;
+    font-size: 1.3rem;
+    text-align: right;
+}
+.Oradores{
+    display: flex;
+    flex-direction: column;
+}
+.Oradores1{
+    display: flex;
+  
+    background-color: white;
+    justify-content: center;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.Oradores2{
+    display: flex;
+    margin-bottom: 30px;
+    background-color: white;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.contenedorTarjetas{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tarjeta{
+    /* height: 500px; */
+    width: 33.33%;
+    padding: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+} 
+.tarjeta img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.tarjeta h3 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.texto-centrado{
+    text-align: center;
+}
+.honolulu{
+    display: flex;
+    width: 100%;
+    height: 80vh; 
+}
+.honoluluImg{
+    width: 50%;
+    background-image: url(../assets/img/honolulu.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.honoluluTexto{
+    width: 50%;
+    background-color: rgb(53, 58, 64);
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.texto-subrayado {
+    border-bottom: 1px dotted #000; 
+  }
+  
+.formulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.footer{
+    height: 15vh;
+    background-image: linear-gradient(to right, #1c3643, #1c3d4e, #1d445a, #1d4c66, #1e5372);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navFooter{
+    display: flex;
+    font-size: 1.2rem;
+}
+
+input{
+    padding: 15px 4px;
+    margin: 10px 0px;
+}
+
+textarea {
+    padding: 15px 10px;
+    margin: 10px 0px;
+}
+
+@media screen and (max-width:991px) {
+    .listaItem{
+        font-size: 0.5rem;
+        padding-left: 10px;
+    }
+    .navBlanco{
+        size: 0.6rem;
+    }
+    .contenedorTarjetas{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .textoBlancoSize{
+        color: white;
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    .hijoDescripcion{
+        padding: 20px;
+        height: auto;
+        width: 100%;
+        font-size: 1.1rem;
+
+    }
+    .descripcion{
+    padding-right: 30px;
+    align-items: flex-end;
+    }
+    .tarjeta{
+        width: 80%;
+    }
+    .honolulu{
+        font-size: 0.7rem;
+    }
+    .derecha{
+        text-align: left;
+    }
+
+    .listaNav{
+        display: block;
+        padding: 10px;
+        margin-right: 20px;
+    }
+    .navFooter{
+        display: block;
+        font-size: 1.2rem;
+    }
+    .navegacionFlex {
+        font-size: 14px;
+    }
+    .descripcion{
+        padding-right: 0px;
+    }
+
+}

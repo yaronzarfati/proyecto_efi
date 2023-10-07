@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAC-PHP | Proyecto integrador</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/5aa3128c60.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+    <div class="navegacionFlex">
+        <div class="contenedorLogo">
+        <img src="assets/img/codoacodo.png" class="logo" alt="Logo"> 
+        <span>Conf Bs As</span>
+        </div>
+        <nav class="navegacion">
+            <ul class="listaNav">
+                <li class="listaItem"><a href="#" class="navBlanco linkNav">La conferencia</a></li>
+                <li class="listaItem"><a href="#oradores" class="navGris linkNav">Oradores</a></li>
+                <li class="listaItem"><a href="#lugarfecha" class="navGris linkNav">El lugar y la fecha</a></li>
+                <li class="listaItem"><a href="#formulario" class="navGris linkNav">Conviértete en orador</a></li>
+                <li class="listaItem"><a href="../Proyecto01/pages/tickets.html" class="navVerde linkNav">Comprar tickets</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <main>
+        <div class="descripcion">
+            <div class="hijoDescripcion">
+            <h1 class="textoBlanco derecha">Conf Bs As</h1>
+            <p class="textoBlancoSize derecha">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia
+            de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes 
+            de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+            </div>
+            <div class="botones">
+                <ul class="listaBotones">
+                <li class="itembotones"><a href="#" class="botonTransparente linkNav navBlanco">Quiero ser orador</a></li>
+                <li class="itembotones"><a href="#" class="botonVerde linkNav navBlanco">Comprar tickets</a></li>
+                </ul>
+            </div>
+        </div>
+            <section id="oradores">
+                <div class=Oradores>
+                    <div class="Oradores1">
+                    CONOCE A LOS
+                    </div>
+                    <div class="Oradores2">
+                        ORADORES
+                    </div>
+                </div>
+        <div class="contenedorTarjetas">
+            <div class="tarjeta">
+                <img src="assets/img/steve.jpg" alt="steve jobs" loading="lazy">
+                <h4 class="naranja">JavaScript</h4>
+                <h4 class="celeste">React</h4>
+                <h3>Steve Jobs</h3>
+                <p class="loremChico">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro neque aliquam consequuntur? Repellat facilis sunt laudantium non veritatis fuga temporibus eius ad necessitatibus voluptate molestiae, vel quam id? Magni, iure!</p>
+            </div>
+            <div class="tarjeta">
+                <img src="assets/img/bill.jpg" alt="bill gates" loading="lazy">
+                <h4 class="naranja">JavaScript</h4>
+                <h4 class="celeste">React</h4>
+                <h3>Bill Gates</h3>
+                <p class="loremChico">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro neque aliquam consequuntur? Repellat facilis sunt laudantium non veritatis fuga temporibus eius ad necessitatibus voluptate molestiae, vel quam id? Magni, iure!</p>
+            </div>
+            <div class="tarjeta">
+                <img src="assets/img/ada.jpeg" alt="ada lovelace" loading="lazy">
+                <h4 class="gris">Negocios</h4>
+                <h4 class="rojo">Startups</h4>
+                <h3>Ada Lovelace</h3>
+                <p class="loremChico">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro neque aliquam consequuntur? Repellat facilis sunt laudantium non veritatis fuga temporibus eius ad necessitatibus voluptate molestiae, vel quam id? Magni, iure!</p>
+            </div>
+        </div>
+        </section>
+    <section id="lugarfecha">
+        <div class="honolulu">
+            <div class="honoluluImg">
+            </div>
+            <div class="honoluluTexto">
+            <h2>Bs As - Octubre</h2>
+            <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la mas sureña
+            de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste
+            de la isla de Ohau, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que que cubre toda la ciudad
+            (aproximadamente 600 km<sup>2</sup> de superficie).</p>
+                <div class="botones"><br>
+                    <ul class="listaNav">
+                    <li class="listaItem"><a href="#" class="botonTransparente linkNav navBlanco">Conocé más</a></li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="formulario">
+        <div class=Oradores>
+            <div class="Oradores1">
+            CONVIERTETE EN UN
+            </div>
+            <div class="Oradores2">
+                ORADOR
+            </div>
+            <div class="texto-centrado">
+            <p>
+                Anótate como orador para dar una charla ignite. Cuéntanos de que quieres hablar!
+            </p>
+        </div>
+        </div>
+        <div class="formulario">
+        <form>
+            <div>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+            </div>
+            <div>
+                <textarea name="comentario" id="comentario" cols="43" rows="5" placeholder="Sobre qué quieres hablar?" required></textarea>
+            <div>
+                Recuerda incluir un título para tu charla</div>
+                <center><input type="submit" value="Enviar" class="botonVerde navBlanco"></center>
+            </div>
+        </form>
+        </div>
+    </section>
+    </main>
+    <footer class="footer">
+        <ul class="navFooter">
+            <li class="listaItem"><a href="#" class="navBlanco linkNav">Preguntas frecuentes</li></a>
+            <li class="listaItem"><a href="#" class="navBlanco linkNav">Contáctanos</li></a>
+            <li class="listaItem"><a href="#" class="navBlanco linkNav">Prensa</li></a>
+            <li class="listaItem"><a href="#" class="navBlanco linkNav">Conferencias</li></a>
+            <li class="listaItem"><a href="#" class="navBlanco linkNav">Términos y condiciones</li></a>
+            <li class="listaItem"><a href="#" class="navBlanco linkNav">Privacidad</li></a>
+            <li class="listaItem"><a href="#" class="navBlanco linkNav">Estudiantes</li></a>
+        </ul>
+    </footer>
+</html>
